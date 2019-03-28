@@ -97,3 +97,29 @@ if (x>44 && x <60){
 }
 
 */
+
+
+var lang = 'ru';
+if (lang == 'ru') {
+	var arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+}
+if (lang == 'en') {
+	arr = ['Mn', 'Ts', 'Wd', 'Th', 'Fr', 'St', 'Sn'];
+}
+alert(arr);
+
+
+
+
+var lang = 'ru';
+switch (lang) {
+	case 'ru':
+		var arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+	break;
+	case 'en':
+		arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
+	break;
+		default:
+			alert('Ваш язык не подходит к этому сайту');
+}
+alert(arr);
