@@ -97,11 +97,11 @@ if (x>44 && x <60){
 }
 
 */
-
+/*
 
 var lang = 'ru';
 if (lang == 'ru') {
-	var arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+	var arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];                   
 }
 if (lang == 'en') {
 	arr = ['Mn', 'Ts', 'Wd', 'Th', 'Fr', 'St', 'Sn'];
@@ -123,3 +123,37 @@ switch (lang) {
 			alert('Ваш язык не подходит к этому сайту');
 }
 alert(arr);
+
+
+function RuEnWeek() {
+	lan = prompt ('Введите язык');
+	
+	var arr = {
+		'ru':['Пн','Вт','Ср','Чт','Пт','Ср','Вс'],
+		'en':['Mn','Ts','We','Th','Fr','St','Sn']
+	};
+	alert(arr[lan]);
+}
+*/
+
+
+function confirr(){
+	result = confirm('Вы студент?');
+	
+	if (result == true){
+		alert('У нас для вас отличное предложение!!');
+	}else{
+		alert('Ничем не можем вам помочь(');
+	}
+}
+
+
+function PrintInt(){
+	col = prompt('Сколько чисел вывести?');
+	col = Number(col);
+	var i = 1;
+	while (i <= col){
+		document.write(i + '<br>');
+		i++;
+	}
+}
