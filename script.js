@@ -157,3 +157,24 @@ function PrintInt(){
 		i++;
 	}
 }
+
+
+/*Домашнее задание*/
+
+var result = 1;
+var arr = [2, 3, 4, 5];
+for (var i = 0; i < arr.length; i++) {
+	result = result * arr[i];
+}
+alert(result);
+
+
+
+var arr = [1, 2, 3, 4, 5];
+for (var i = 0; i < arr.length; i++) {
+	document.write(arr[i] + '<br>');
+}
+
+
+
+
