@@ -144,8 +144,8 @@ function confirr(){
 		alert('У нас для вас отличное предложение!!');
 	}else{
 		alert('Ничем не можем вам помочь(');
-	}
-}
+	};
+};
 
 
 function PrintInt(){
@@ -155,25 +155,29 @@ function PrintInt(){
 	while (i <= col){
 		document.write(i + '<br>');
 		i++;
-	}
-}
+	};
+};
 
 
 /*Домашнее задание*/
 
-var result = 1;
-var arr = [2, 3, 4, 5];
-for (var i = 0; i < arr.length; i++) {
+function result(){
+	var result = 1;
+	var arr = [2, 3, 4, 5, ];
+	for (var i = 0; i < arr.length; i++) {
 	result = result * arr[i];
-}
+	};
 alert(result);
+};
 
 
 
-var arr = [1, 2, 3, 4, 5];
-for (var i = 0; i < arr.length; i++) {
-	document.write(arr[i] + '<br>');
-}
+function write(){
+	var arr = [1, 2, 3, 4, 5];
+	for (var i = 0; i <= arr.length(); i++){
+		document.write(arr[i] + '<br>');
+	};
+};
 
 
 
